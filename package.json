@@ -1,0 +1,40 @@
+{
+  "name": "webdb",
+  "version": "0.2.0",
+  "description": "A wrapper over WebSQL.",
+  "main": "./build/webdb.min.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec tests/all.js"
+  },
+  "keywords": [
+    "websql",
+    "webdb",
+    "local",
+    "storage",
+    "sql",
+    "clientside",
+    "html5"
+  ],
+  "author": "Moin Uddin <me@moin.im> (https://moin.im)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.11.0",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moinism/webdb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moinism/webdb/issues"
+  },
+  "homepage": "http://moin.im/plugins/webdb/index.html",
+  "dependencies": {
+    "node-persist": "0.0.8"
+  }
+}
